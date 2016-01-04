@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D4B43EB3-688B-4EEE-86BD-088F0B28ABB3}") = "StackAppServiceStatus.Discovery", "StackAppServiceStatus.Discovery\StackAppServiceStatus.Discovery.mpproj", "{362CECD3-B294-4236-8C75-EF79BE8C1169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{40A93292-FBFD-44C6-A578-6021D118F410}"
+	ProjectSection(SolutionItems) = preProject
+		Notes\ISE_Notes-DONOTDELETE.ps1 = Notes\ISE_Notes-DONOTDELETE.ps1
+		Notes\LabPoshNotes-DONODELETE.ps1 = Notes\LabPoshNotes-DONODELETE.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{362CECD3-B294-4236-8C75-EF79BE8C1169}.Debug|x86.ActiveCfg = Debug|x86
+		{362CECD3-B294-4236-8C75-EF79BE8C1169}.Debug|x86.Build.0 = Debug|x86
+		{362CECD3-B294-4236-8C75-EF79BE8C1169}.Release|x86.ActiveCfg = Release|x86
+		{362CECD3-B294-4236-8C75-EF79BE8C1169}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
