@@ -1,0 +1,51 @@
+﻿<ManagementPackFragment SchemaVersion="2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeDefinitions>
+    <EntityTypes>
+      <ClassTypes>
+        <!-- Base Class-->
+        <ClassType ID="StackAppServiceStatus.Discovery.ProbeService" Base="Windows!Microsoft.Windows.Computer" Accessibility="Internal" Abstract="true" Hosted="false" Singleton="false" >
+          <Property ID="Response" Key="false" Type="string" />
+          <Property ID="Status" Key="false" Type="string" />
+          <Property ID="Displayname" Key="false" Type="string"/>
+          <Property ID="Port" Key="false" Type="int"/>
+          <Property ID="ServiceUrl" Key="false" Type="string"/>
+        </ClassType>
+      </ClassTypes>
+    </EntityTypes>
+  </TypeDefinitions>
+  <LanguagePacks>
+    <LanguagePack ID="ENU" IsDefault="true">
+      <DisplayStrings>
+        <!-- String exposed in Ops Manager -->
+        <DisplayString ElementID="StackAppServiceStatus.Discovery.ProbeService">
+          <Name>Stack Discovery Probe Service</Name>
+          <Description></Description>
+        </DisplayString>
+
+        <!-- Sub elements of Discovery Service -->
+        <DisplayString ElementID="StackAppServiceStatus.Discovery.ProbeService" SubElementID="Response">
+          <Name>StackApp Discovery Probe Service Response</Name>
+          <Description></Description>
+        </DisplayString>
+        <DisplayString ElementID="StackAppServiceStatus.Discovery.ProbeService" SubElementID="Status">
+          <Name>StackApp Discovery Probe Service Status</Name>
+          <Description></Description>
+        </DisplayString>
+        <DisplayString ElementID="StackAppServiceStatus.Discovery.ProbeService" SubElementID="Displayname">
+          <Name>StackApp Discovery Probe Service Displayname</Name>
+          <Description></Description>
+        </DisplayString>
+        <DisplayString ElementID="StackAppServiceStatus.Discovery.ProbeService" SubElementID="Port">
+          <Name>StackApp Discovery Probe Service Port</Name>
+          <Description></Description>
+        </DisplayString>
+        <!--
+        <DisplayString ElementID="StackAppServiceStatus.Discovery.ProbeService" SubElementID="ServiceUrl">
+          <Name>StackApp Discovery Probe Service ServiceUrl</Name>
+          <Description></Description>
+        </DisplayString>
+        -->
+      </DisplayStrings>
+    </LanguagePack>
+  </LanguagePacks>
+</ManagementPackFragment>

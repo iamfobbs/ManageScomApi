@@ -52,12 +52,17 @@
     </ManagementPackReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes" />
+    <Folder Include="Service Model" />
     <Folder Include="Scripts" />
+    <Folder Include="Service Model\Classes" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Scripts\ManageAppServiceStatus.ps1" />
-    <EmbeddedResource Include="Scripts\SingleManageAppServiceStatus.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Service Model\Classes\ProbeService.mpx">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VSAC\Microsoft.SystemCenter.OperationsManager.targets" />
 </Project>
